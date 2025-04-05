@@ -3,11 +3,7 @@ import { motion } from 'framer-motion';
 
 
 const partnerLogos = [
-  { 
-    name: 'Google', 
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png', 
-    link: '#' 
-  },
+  
   { 
     name: 'Microsoft', 
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png', 
@@ -43,11 +39,7 @@ const partnerLogos = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tesla_logo.png/600px-Tesla_logo.png', 
     link: '#' 
   },
-  { 
-    name: 'Adobe', 
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Adobe_Corporate_logo.png/484px-Adobe_Corporate_logo.png', 
-    link: '#' 
-  },
+ 
   { 
     name: 'Salesforce', 
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/512px-Salesforce.com_logo.svg.png', 

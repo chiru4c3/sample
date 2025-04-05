@@ -15,7 +15,7 @@ const BlogSection = () => {
     {
       id: 1,
       title: "Understanding Compliance for Private Limited Companies in India",
-      image: "/api/placeholder/400/250",
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
       date: "March 29, 2025",
       time: "08:26 AM",
       author: "Muskaan Hiran",
@@ -24,7 +24,7 @@ const BlogSection = () => {
     {
       id: 2,
       title: "Government Schemes for Startups in India",
-      image: "/api/placeholder/400/250",
+      image: "https://images.unsplash.com/photo-1664575602276-acd073f104c1?w=800&h=400&fit=crop",
       date: "March 29, 2025",
       time: "07:41 AM",
       author: "Komal Sharma",
@@ -33,7 +33,7 @@ const BlogSection = () => {
     {
       id: 3,
       title: "Mandatory OPC Compliance Requirements: Full Guide",
-      image: "/api/placeholder/400/250",
+      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=400&fit=crop",
       date: "March 29, 2025",
       time: "07:05 AM",
       author: "Om Adesh Ghai",
@@ -42,7 +42,7 @@ const BlogSection = () => {
     {
       id: 4,
       title: "How to Register a Trademark for Your Business in India",
-      image: "/api/placeholder/400/250",
+      image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&h=400&fit=crop",
       date: "March 28, 2025",
       time: "02:15 PM",
       author: "Ananya Patel",
@@ -51,7 +51,7 @@ const BlogSection = () => {
     {
       id: 5,
       title: "GST Registration Process Simplified for Businesses",
-      image: "/api/placeholder/400/250",
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&h=400&fit=crop",
       date: "March 28, 2025",
       time: "11:30 AM",
       author: "Vikram Mehta",

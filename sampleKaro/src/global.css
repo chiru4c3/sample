@@ -4,6 +4,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 64px;
   }
   
   
@@ -205,6 +206,18 @@ html {
   
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
+  }
+  
+  
+  
+  .mobile-menu-button {
+    position: relative;
+    z-index: 50;
+  }
+  
+
+  main {
+    padding-top: 64px;
   }
   
   
