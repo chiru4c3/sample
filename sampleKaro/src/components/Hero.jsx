@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
 const Hero = () => {
-  // Animation states
   const [isVisible, setIsVisible] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   
-  // Handle mouse movement for the hover effect
+  
   const handleMouseMove = (e) => {
     setMousePosition({
       x: (e.clientX / window.innerWidth) - 0.5,
@@ -14,10 +13,9 @@ const Hero = () => {
   };
   
   useEffect(() => {
-    // Set visibility after component mount for entrance animation
     setIsVisible(true);
     
-    // Add mouse move event listener
+    
     window.addEventListener('mousemove', handleMouseMove);
     
     return () => {

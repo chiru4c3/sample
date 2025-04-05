@@ -1,10 +1,10 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import App from './App'; // Import your main App component
-import './global.css'; // Import your CSS file
-const container = document.getElementById('root'); // Assuming 'root' is your container ID
-const root = createRoot(container); // Create a root.
+import App from './App';
+import './global.css'; 
+const container = document.getElementById('root'); 
+const root = createRoot(container); 
 
 root.render(
   <React.StrictMode>

@@ -8,7 +8,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  // Handle scroll effect
+
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
@@ -25,7 +25,7 @@ const Navbar = () => {
     };
   }, []);
 
-  // Dropdown menu items
+
   const startupDropdownItems = [
     { name: 'Private Limited Company', path: '/private-limited' },
     { name: 'Limited Liability Partnership', path: '/llp' },

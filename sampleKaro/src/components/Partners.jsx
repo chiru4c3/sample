@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-// Sample famous company logos using reliable CDNs
+
 const partnerLogos = [
   { 
     name: 'Google', 
